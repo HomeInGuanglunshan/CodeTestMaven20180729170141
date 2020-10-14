@@ -1,0 +1,5 @@
+、第一个文件叫description.sql
+、第二个文件开始，从“-- Table structure for xxx”里取文件名，后缀为.sql
+、读到尽头结束操作
+、或许可以使用RandomAccessFile来操作？
+	、甚至或许可以由此玩起多线程？

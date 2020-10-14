@@ -1,0 +1,28 @@
+-Xms60m -Xmx60m -Xmn20m -XX:NewRatio=2 -XX:SurvivorRatio=8 -XX:MetaspaceSize=30m -XX:MaxMetaspaceSize=30m -XX:+PrintGCDetails -XX:+UseParNewGC
+
+[GC (Allocation Failure) [ParNew: 13927K->664K(18432K), 0.0005850 secs] 13927K->664K(59392K), 0.0006158 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13268K->876K(18432K), 0.0003797 secs] 13268K->876K(59392K), 0.0003897 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13447K->1054K(18432K), 0.0003671 secs] 13447K->1054K(59392K), 0.0003755 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13638K->942K(18432K), 0.0003275 secs] 13638K->942K(59392K), 0.0003387 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13534K->951K(18432K), 0.0003034 secs] 13534K->951K(59392K), 0.0003139 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13549K->1113K(18432K), 0.0003363 secs] 13549K->1113K(59392K), 0.0003477 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13714K->811K(18432K), 0.0003378 secs] 13714K->811K(59392K), 0.0003486 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13414K->988K(18432K), 0.0003514 secs] 13414K->988K(59392K), 0.0003668 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13593K->1082K(18432K), 0.0004184 secs] 13593K->1082K(59392K), 0.0004347 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13688K->786K(18432K), 0.0004618 secs] 13688K->786K(59392K), 0.0004878 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13393K->1007K(18432K), 0.0004374 secs] 13393K->1007K(59392K), 0.0004513 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13614K->932K(18432K), 0.0003610 secs] 13614K->932K(59392K), 0.0003755 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13539K->1107K(18432K), 0.0003486 secs] 13539K->1107K(59392K), 0.0003637 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13714K->750K(18432K), 0.0003825 secs] 13714K->750K(59392K), 0.0003972 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13357K->935K(18432K), 0.0003755 secs] 13357K->935K(59392K), 0.0003888 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13543K->0K(18432K), 0.0004009 secs] 13543K->658K(59392K), 0.0004223 secs] [Times: user=0.01 sys=0.00, real=0.02 secs] 
+Heap
+ par new generation   total 18432K, used 8839K [0x00000000fc400000, 0x00000000fd800000, 0x00000000fd800000)
+  eden space 16384K,  53% used [0x00000000fc400000, 0x00000000fcca1d88, 0x00000000fd400000)
+  from space 2048K,   0% used [0x00000000fd400000, 0x00000000fd400000, 0x00000000fd600000)
+  to   space 2048K,   0% used [0x00000000fd600000, 0x00000000fd600000, 0x00000000fd800000)
+ tenured generation   total 40960K, used 658K [0x00000000fd800000, 0x0000000100000000, 0x0000000100000000)
+   the space 40960K,   1% used [0x00000000fd800000, 0x00000000fd8a4bd8, 0x00000000fd8a4c00, 0x0000000100000000)
+ Metaspace       used 2562K, capacity 4486K, committed 4864K, reserved 1056768K
+  class space    used 273K, capacity 386K, committed 512K, reserved 1048576K
+Java HotSpot(TM) 64-Bit Server VM warning: Using the ParNew young collector with the Serial old collector is deprecated and will likely be removed in a future release

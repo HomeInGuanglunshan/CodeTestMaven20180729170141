@@ -1,0 +1,26 @@
+-Xms60m -Xmx60m -Xmn20m -XX:NewRatio=2 -XX:SurvivorRatio=8 -XX:MetaspaceSize=30m -XX:MaxMetaspaceSize=30m -XX:+PrintGCDetails -XX:+UseConcMarkSweepGC
+
+[GC (Allocation Failure) [ParNew: 13927K->654K(18432K), 0.0006164 secs] 13927K->654K(59392K), 0.0006680 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13258K->880K(18432K), 0.0004993 secs] 13258K->880K(59392K), 0.0005189 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13451K->961K(18432K), 0.0003969 secs] 13451K->961K(59392K), 0.0004141 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13545K->936K(18432K), 0.0004531 secs] 13545K->936K(59392K), 0.0004715 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13528K->929K(18432K), 0.0003589 secs] 13528K->929K(59392K), 0.0003728 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13527K->1017K(18432K), 0.0003495 secs] 13527K->1017K(59392K), 0.0003634 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13618K->1090K(18432K), 0.0003737 secs] 13618K->1090K(59392K), 0.0003864 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13694K->789K(18432K), 0.0003215 secs] 13694K->789K(59392K), 0.0003405 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13394K->1008K(18432K), 0.0003393 secs] 13394K->1008K(59392K), 0.0003523 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13614K->989K(18432K), 0.0003746 secs] 13614K->989K(59392K), 0.0003867 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13595K->1034K(18432K), 0.0003423 secs] 13595K->1034K(59392K), 0.0003631 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13641K->994K(18432K), 0.0003239 secs] 13641K->994K(59392K), 0.0003441 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13601K->1036K(18432K), 0.0003426 secs] 13601K->1036K(59392K), 0.0003562 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13643K->1095K(18432K), 0.0003399 secs] 13643K->1095K(59392K), 0.0003535 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13702K->846K(18432K), 0.0003544 secs] 13702K->846K(59392K), 0.0003683 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [ParNew: 13454K->0K(18432K), 0.0014737 secs] 13454K->648K(59392K), 0.0014869 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap
+ par new generation   total 18432K, used 8839K [0x00000000fc400000, 0x00000000fd800000, 0x00000000fd800000)
+  eden space 16384K,  53% used [0x00000000fc400000, 0x00000000fcca1d88, 0x00000000fd400000)
+  from space 2048K,   0% used [0x00000000fd400000, 0x00000000fd400000, 0x00000000fd600000)
+  to   space 2048K,   0% used [0x00000000fd600000, 0x00000000fd600000, 0x00000000fd800000)
+ concurrent mark-sweep generation total 40960K, used 648K [0x00000000fd800000, 0x0000000100000000, 0x0000000100000000)
+ Metaspace       used 2562K, capacity 4486K, committed 4864K, reserved 1056768K
+  class space    used 273K, capacity 386K, committed 512K, reserved 1048576K

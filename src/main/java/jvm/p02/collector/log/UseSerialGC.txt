@@ -1,0 +1,27 @@
+-Xms60m -Xmx60m -Xmn20m -XX:NewRatio=2 -XX:SurvivorRatio=8 -XX:MetaspaceSize=30m -XX:MaxMetaspaceSize=30m -XX:+PrintGCDetails -XX:+UseSerialGC
+
+[GC (Allocation Failure) [DefNew: 13927K->637K(18432K), 0.0011778 secs] 13927K->637K(59392K), 0.0012153 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [DefNew: 13241K->636K(18432K), 0.0006614 secs] 13241K->636K(59392K), 0.0006716 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [DefNew: 13207K->636K(18432K), 0.0005599 secs] 13207K->636K(59392K), 0.0005702 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [DefNew: 13220K->636K(18432K), 0.0005138 secs] 13220K->636K(59392K), 0.0005225 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [DefNew: 13228K->636K(18432K), 0.0005150 secs] 13228K->636K(59392K), 0.0005313 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [DefNew: 13234K->636K(18432K), 0.0004962 secs] 13234K->636K(59392K), 0.0005125 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [DefNew: 13237K->636K(18432K), 0.0004950 secs] 13237K->636K(59392K), 0.0005113 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [DefNew: 13240K->636K(18432K), 0.0004881 secs] 13240K->636K(59392K), 0.0005047 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [DefNew: 13241K->636K(18432K), 0.0004944 secs] 13241K->636K(59392K), 0.0005104 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [DefNew: 13242K->636K(18432K), 0.0004887 secs] 13242K->636K(59392K), 0.0005050 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [DefNew: 13242K->636K(18432K), 0.0004914 secs] 13242K->636K(59392K), 0.0005074 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [DefNew: 13243K->636K(18432K), 0.0004854 secs] 13243K->636K(59392K), 0.0005017 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [DefNew: 13243K->636K(18432K), 0.0004941 secs] 13243K->636K(59392K), 0.0005113 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [DefNew: 13243K->636K(18432K), 0.0004869 secs] 13243K->636K(59392K), 0.0005035 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [DefNew: 13243K->636K(18432K), 0.0004893 secs] 13243K->636K(59392K), 0.0005056 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [DefNew: 13243K->0K(18432K), 0.0006366 secs] 13243K->636K(59392K), 0.0006529 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap
+ def new generation   total 18432K, used 8839K [0x00000000fc400000, 0x00000000fd800000, 0x00000000fd800000)
+  eden space 16384K,  53% used [0x00000000fc400000, 0x00000000fcca1d88, 0x00000000fd400000)
+  from space 2048K,   0% used [0x00000000fd400000, 0x00000000fd400000, 0x00000000fd600000)
+  to   space 2048K,   0% used [0x00000000fd600000, 0x00000000fd600000, 0x00000000fd800000)
+ tenured generation   total 40960K, used 636K [0x00000000fd800000, 0x0000000100000000, 0x0000000100000000)
+   the space 40960K,   1% used [0x00000000fd800000, 0x00000000fd89f270, 0x00000000fd89f400, 0x0000000100000000)
+ Metaspace       used 2562K, capacity 4486K, committed 4864K, reserved 1056768K
+  class space    used 273K, capacity 386K, committed 512K, reserved 1048576K

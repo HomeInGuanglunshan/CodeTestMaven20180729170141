@@ -1,0 +1,39 @@
+-XX:+HeapDumpOnOutOfMemoryError
+
+当发生java.lang.OutOfMemoryError时，console报类似如下的日志：
+java.lang.OutOfMemoryError: Java heap space
+Dumping heap to java_pid292.hprof ...
+Heap dump file created [1341690 bytes in 0.005 secs]
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at jvm.p01.JvmGc05.main(JvmGc05.java:19)
+
+同时CodeTestMaven20180729170141项目中出现一个*。hprof文件，与pom.xml同级。如“java_pid292.hprof”
+
+-----------------------------------------------------
+Serial   串行的。不要只是往Serializable（可序列化的）那方面想。当然，“序列”和“串行”，两者指代的逻辑形式都是一样的
+Parallel 并行的。-XX:+UseParNewGC中的“Par”是Parallel的缩写？
+
+串行收集器         最古老，最稳定以及效率高的收集器，可能会产生较长的停顿，只使用一个线程去回收
+并行收集器         启动多线程回收？
+
+-----------------------------------------------------
+“［DefNew”、“［Tenured”、“［Perm”表示GC发生的区域，这里显示的区域名称与使用的GC收集器是密切相关的，
+例如上面样例所使用的Serial收集器中的新生代名为“Default New Generation”，所以显示的是“［DefNew”。
+如果是ParNew收集器，新生代名称就会变为“［ParNew”，意为“Parallel New Generation”。
+如果采用Parallel Scavenge收集器，那它配套的新生代称为“PSYoungGen”，老年代和永久代同理，名称也是由收集器决定的。 
+
+https://www.cnblogs.com/atomicbomb/p/6923174.html
+
+-----------------------------------------------------
+GC (Allocation Failure)表明本次引起GC的原因是因为在年轻代中没有足够的空间能够存储新的数据了。
+
+https://blog.csdn.net/zc19921215/article/details/83029952
+
+-----------------------------------------------------
+JVM性能调优主要目的是避免Full GC的发生
+
+???
+
+https://blog.csdn.net/sinlff/article/details/70138651
+
+-----------------------------------------------------
